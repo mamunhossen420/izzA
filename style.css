@@ -1,0 +1,132 @@
+*{
+    font-size: 16px;
+}
+body{
+    background: #ffffff;
+}
+h1,h2,h3,h4,h5,strong{
+    color: black !important;
+    font-weight: bold;
+}
+p,span,h6,li{
+    color: #6d6d6d;
+
+}
+p{
+    margin-bottom: 0 !important;
+}
+.navbar-light .navbar-brand {
+    width: 20%;
+}
+.navbar .container{
+    border-bottom: 2px solid #e9ebef;
+}
+.navbar-nav li{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.form-control:focus, .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    border-color: none !important;
+    box-shadow: none !important;
+}
+.seacrh-i{
+    position: relative;
+    color: #ababab;
+    margin-left: 60px;
+}
+.seacrh-i input{
+    margin: 0;
+    padding-left: 35px;
+    outline: none !important;
+    border-radius: 30px;
+    width: 350px;
+}
+.seacrh-i i{
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+.btn-list{
+    background: #3a66d9;
+    border-radius: 30px;
+    padding: 5px 15px;
+    margin-top: 7px;
+}
+.banner .banner-img{
+    /*border: 1px solid #ababab2e;*/
+    padding: 3px;
+    padding-right: 15px !important;
+    
+}
+.card-boxx{
+    padding-left: 15px !important;
+    padding-bottom: 20px;
+}
+.banner img{
+    width: 100%;
+    border-radius: 8px;
+}
+.small .col-md-3 {
+    padding: 0;
+    padding-left: 7px;
+}
+.small.row {
+    padding: 0 10px 0 6px;
+}
+.card-image{
+    padding-right: 0 !important;
+}
+.card-head{
+    padding-left: 4px !important;
+    justify-content: center;
+    padding-top: 11px;
+}
+.profile{
+    padding: 0 !important;
+    margin-left: 5px !important;
+}
+.profile a {
+    margin-left: 50%;
+}
+.profile-row{
+    margin-top: -17px;
+}
+
+.card-contact a{
+    padding: 7px 20px;
+    border-radius: 30px;
+    border: 1px solid;
+    text-decoration: none;
+}
+.card-contact i{
+    margin-right: 8px;
+}
+/**second section*/
+.second-section {
+    margin-top: -120px;
+}
+.second-section p{
+    font-size: 13px;
+}
+.quality li, .ads li{
+    padding: 0 10px;
+}
+.quality li:nth-child(1), .ads li:nth-child(1){
+    padding-left: 0 !important;
+}
+.quality i, .ads i{
+    padding-right: 8px;
+}
+.ads{
+    padding-left: 15px;
+}
+.ads-set {
+    border: 1px solid transparent;
+    box-shadow: 0px 1px 4px #dcdbdb;
+}
+.pad-0{
+    padding: 0 !important;
+}
+.flex-auto{
+    flex: auto !important;
+}
