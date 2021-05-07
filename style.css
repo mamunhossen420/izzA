@@ -52,11 +52,27 @@ p{
     padding: 5px 15px;
     margin-top: 7px;
 }
+.bannerBox {
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+}
+.bannerBox img {
+    object-fit: cover;
+    height: 100%;
+}
+.small img:hover {
+    cursor: pointer;
+}
 .banner .banner-img{
     /*border: 1px solid #ababab2e;*/
     padding: 3px;
     padding-right: 15px !important;
     
+}
+.small img {
+    max-height: 100%;
+    height: 80px;
 }
 .card-boxx{
     padding-left: 15px !important;
@@ -103,7 +119,7 @@ p{
 }
 /**second section*/
 .second-section {
-    margin-top: -120px;
+    margin-top: -95px;
 }
 .second-section p{
     font-size: 13px;
